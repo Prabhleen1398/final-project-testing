@@ -1,0 +1,76 @@
+.home,
+.register-user-home,
+.login-user-home,
+.guest-user-home {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.register-user-home,
+.login-user-home,
+.guest-user-home {
+  width: 60%;
+}
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  .button-util {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    align-self: center;
+  }
+  
+  .registerInput, .loginInput {
+    width: 100%;
+    padding: 10px;
+    margin: 0 2%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .register-form, .login-form {
+    width: 80%; /* Adjust the width as needed */
+  max-width: 400px; /* Set a max-width for better readability on larger screens */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  }
+
+  .register-form-div {
+    display: flex;
+  flex-direction: column;
+  }
